@@ -1,0 +1,35 @@
+<nav class="navbar navbar-expand-sm navbar-light bg-light">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+            <img src="./photos/image-removebg-preview 3.svg" width="80" height="50">
+        </a>
+        <div class="order-1 order-sm-2 ms-auto">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+        <div class="collapse navbar-collapse order-3 order-sm-1" id="navbarSupportedContent">
+            <ul class="navbar-nav mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="#">За Нас</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Услуги</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Контакти</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">ЧЗВ</a>
+                </li>
+            </ul>
+        </div>
+        <div class="navbar-collapse collapse justify-content-end order-2 order-sm-3 custom-margin-mobilenumber" id="navbarSupportedContent">
+            <ul class="navbar-nav mb-2 mb-lg-0 pe-4">
+                <li class="nav-item">
+                    <a href="tel:0879256057" class="nav-link">+359 792 3469</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
