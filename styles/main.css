@@ -2,38 +2,69 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-  }
+}
 
-  .nav-link-celements-styling{
+
+
+.pencho{
+    border: 1px solid black;
+}
+
+
+
+
+.nav-link-celements-styling {
     font-weight: 400;
     font-size: 1.1rem;
     color: black !important;
     text-decoration: none;
-  }
-  .nav-link-number-styling{
+   
+}
+.nav-link-number-styling {
     font-weight: 600;
     font-size: 1.2rem;
-  }
-  
+}
+.after-effect-styling{
+    position: relative;
+}
+.after-effect-styling::after{
+    content: "";
+    position: absolute; /* Position relative to the parent link */
+    bottom: -3px; /* Adjust the position of the underline */
+    left: 8%; /* Start from the left */
+    height: 2px;
+    width: 90%;
+    background-color: rgb(81, 81, 86); /* Set the color of the underline */
+    opacity: 0; /* Initially invisible */
+    transition: opacity 0.2s; /* Smooth transition for opacity */
+}
+.after-effect-styling:hover::after {
+    opacity: 1; /* Make the underline visible on hover */
+}
 
-@media (min-width: 576px) and (max-width: 1280px){
-    .custom-margin-mobilenumber{
+@media (min-width: 576px) and (max-width: 1280px) {
+    .custom-margin-mobilenumber {
         width: 45%;
     }
 }
-@media (min-width: 1282px){
-    .azis{
-justify-content: center;
+
+@media (min-width: 1282px) {
+    .azis {
+        justify-content: center;
+    }
 }
-}
-@media (min-width: 576px) and (max-width: 1282px){
-    .ablalba{
-       padding-right: 10%;
+
+@media (min-width: 576px) and (max-width: 1282px) {
+    .ablalba {
+        padding-right: 10%;
         justify-content: end;
     }
 }
 
 @media (max-width: 576px) {
+    .after-effect-styling::after{
+        display: none;
+    }
     .navbar-toggler {
         margin-left: auto;
     }
@@ -44,3 +75,32 @@ justify-content: center;
         flex-direction: column;
     }
 }
+
+/* custom.css */
+
+@media (max-width: 827px) {
+  .col-custom {
+    flex-basis: calc(100% - 20px); /* Adjust the width of columns */
+    margin-right: 0 !important; /* Remove margin between columns */
+  }
+
+  .row > div[class*='col-custom'] {
+    flex-basis: 100%; /* Make columns occupy full width */
+    margin-right: 0; /* Remove margin between columns */
+    margin-bottom: 10px; /* Add margin between stacked columns */
+  }
+
+  /* Override mx-4 class for columns */
+  .row > div[class*='col-custom'] + div[class*='col-custom'] {
+    margin-left: 0 !important;
+  }
+}
+
+  .kah{
+    max-width: 30% !important;
+    height: auto;
+ 
+  }
+
+
+  
