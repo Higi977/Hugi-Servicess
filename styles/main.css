@@ -1,45 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Nanum+Gothic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Nanum+Gothic&display=swap');
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-
-
-.pencho{
-    border: 1px solid black;
-}
-
-
-
-
 .nav-link-celements-styling {
     font-weight: 400;
     font-size: 1.1rem;
     color: black !important;
     text-decoration: none;
-   
 }
+
 .nav-link-number-styling {
     font-weight: 600;
     font-size: 1.2rem;
 }
-.after-effect-styling{
+
+.after-effect-styling {
     position: relative;
 }
-.after-effect-styling::after{
+
+.after-effect-styling::after {
     content: "";
-    position: absolute; /* Position relative to the parent link */
-    bottom: -3px; /* Adjust the position of the underline */
-    left: 8%; /* Start from the left */
+    position: absolute;
+    /* Position relative to the parent link */
+    bottom: -3px;
+    /* Adjust the position of the underline */
+    left: 8%;
+    /* Start from the left */
     height: 2px;
     width: 90%;
-    background-color: rgb(81, 81, 86); /* Set the color of the underline */
-    opacity: 0; /* Initially invisible */
-    transition: opacity 0.2s; /* Smooth transition for opacity */
+    background-color: rgb(81, 81, 86);
+    /* Set the color of the underline */
+    opacity: 0;
+    /* Initially invisible */
+    transition: opacity 0.2s;
+    /* Smooth transition for opacity */
 }
+
 .after-effect-styling:hover::after {
-    opacity: 1; /* Make the underline visible on hover */
+    opacity: 1;
+    /* Make the underline visible on hover */
 }
 
 @media (min-width: 576px) and (max-width: 1280px) {
@@ -48,21 +51,8 @@
     }
 }
 
-@media (min-width: 1282px) {
-    .azis {
-        justify-content: center;
-    }
-}
-
-@media (min-width: 576px) and (max-width: 1282px) {
-    .ablalba {
-        padding-right: 10%;
-        justify-content: end;
-    }
-}
-
 @media (max-width: 576px) {
-    .after-effect-styling::after{
+    .after-effect-styling::after {
         display: none;
     }
     .navbar-toggler {
@@ -76,31 +66,156 @@
     }
 }
 
-/* custom.css */
-
-@media (max-width: 827px) {
-  .col-custom {
-    flex-basis: calc(100% - 20px); /* Adjust the width of columns */
-    margin-right: 0 !important; /* Remove margin between columns */
-  }
-
-  .row > div[class*='col-custom'] {
-    flex-basis: 100%; /* Make columns occupy full width */
-    margin-right: 0; /* Remove margin between columns */
-    margin-bottom: 10px; /* Add margin between stacked columns */
-  }
-
-  /* Override mx-4 class for columns */
-  .row > div[class*='col-custom'] + div[class*='col-custom'] {
-    margin-left: 0 !important;
-  }
+.custom-gap-grid-system-card {
+    row-gap: 1rem;
+    /* Adjust the vertical gap */
+    column-gap: 1rem;
+    /* Adjust the horizontal gap */
 }
 
-  .kah{
+.custom-color-card-type-1-pink {
+    color: #F4A5D2 !important;
+}
+
+.custom-color-card-middle-text {
+    color: #010514!important;
+    font-size: 1.4rem !important;
+}
+
+.custom-color-card-type-2-lightblue {
+    color: #4683CD !important;
+}
+
+.custom-color-card-type-2-darkblue {
+    color: #0B1D54 !important;
+}
+
+.custom-color-card-type-1-white {
+    color: #FEFAE4 !important;
+}
+
+.after-effect-styling-1,
+.after-effect-styling-2 {
+    position: relative;
+}
+
+.after-effect-styling-1::after {
+    content: "";
+    position: absolute;
+    /* Position relative to the parent link */
+    bottom: 0;
+    /* Adjust the position of the underline */
+    left: 7.5%;
+    /* Start from the left */
+    height: 2px;
+    width: 65%;
+    background-color: #FEFAE4;
+    /* Set the color of the underline */
+    opacity: 0;
+    /* Initially invisible */
+    transition: opacity 0.2s;
+    /* Smooth transition for opacity */
+}
+
+.after-effect-styling-2::after {
+    content: "";
+    position: absolute;
+    /* Position relative to the parent link */
+    bottom: 0;
+    /* Adjust the position of the underline */
+    left: 7.5%;
+    /* Start from the left */
+    height: 2px;
+    width: 65%;
+    background-color: #0B1D54;
+    /* Set the color of the underline */
+    opacity: 0;
+    /* Initially invisible */
+    transition: opacity 0.2s;
+    /* Smooth transition for opacity */
+}
+
+.after-effect-styling-1:hover::after,
+.after-effect-styling-2:hover::after {
+    opacity: 1;
+    /* Make the underline visible on hover */
+}
+
+.font-weight-bold {
+    font-weight: bold !important;
+}
+
+.font-family-gothic {
+    font-family: "Nanum Gothic", sans-serif !important;
+}
+
+.font-family-caveat {
+    font-family: "Caveat", cursive !important;
+}
+
+.card-custom-style {
+    box-shadow: 4px 7px 11px 0px rgba(0, 0, 0, 0.2) !important;
+    border: none !important;
+}
+
+.card-img-size-gridsystem {
     max-width: 30% !important;
     height: auto;
- 
-  }
+}
 
+.card-custom-size {
+    width: 90%;
+}
 
-  
+.last-img-card-gridsystem {
+    width: 80%;
+}
+
+.bg-color-section-card {
+    background-color: #e5f8ff;
+}
+
+.columns-position-d-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.custom-style-for-card-1 {
+    background-color: #8098E2 !important;
+}
+
+.custom-style-for-card-2 {
+    background-color: #fcf9ea !important;
+}
+
+.custom-style-for-card-2,
+.custom-style-for-card-1 {
+    border-radius: 0.5rem !important;
+}
+
+@media (min-width: 827px) {
+    .row-cols-cb_col_1>.col {
+        flex: 0 0 calc(100% / 2 - 0.5rem);
+        /* Two columns per row, adjusting for gap */
+        max-width: calc(100% / 2 - 0.5rem);
+    }
+}
+
+@media (min-width: 1087px) {
+    .row-cols-cb_col_2>.col {
+        flex: 0 0 calc(100% / 3 - 0.67rem);
+        /* Three columns per row, adjusting for gap */
+        max-width: calc(100% / 3 - 0.67rem);
+    }
+}
+
+@media (max-width: 1087px) {
+    .display-none-last-image-smaller-resolution {
+        display: none !important;
+    }
+}
+
+.kjh {
+    text-align: center;
+}
