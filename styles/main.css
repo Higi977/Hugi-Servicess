@@ -194,6 +194,10 @@
     border-radius: 0.5rem !important;
 }
 
+.align-center-text-card-section {
+    text-align: center;
+}
+
 @media (min-width: 827px) {
     .row-cols-cb_col_1>.col {
         flex: 0 0 calc(100% / 2 - 0.5rem);
@@ -214,8 +218,4 @@
     .display-none-last-image-smaller-resolution {
         display: none !important;
     }
-}
-
-.kjh {
-    text-align: center;
 }
