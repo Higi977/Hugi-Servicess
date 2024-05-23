@@ -61,7 +61,7 @@
     font-size: 1.4rem !important;
 }
 
-.first-text--section-card {
+.first-text-section-card {
     color: #010514!important;
 }
 
@@ -128,6 +128,10 @@
     font-weight: bold !important;
 }
 
+.font-weight-700 {
+    font-weight: 700 !important;
+}
+
 .font-family-gothic {
     font-family: "Nanum Gothic", sans-serif !important;
 }
@@ -167,12 +171,13 @@
 
 .custom-style-for-card-1 {
     background-color: transparent !important;
-    transition: 0.2s;
+    transition: 0.3s;
     border: none !important;
 }
 
 .custom-style-for-card-1:hover {
-    background-color: #8098E2 !important;
+    background-color: #d1d1f0 !important;
+    /* background-color: #8098e2 !important; */
     border-radius: 0.5rem !important;
     box-shadow: 4px 7px 11px 0px rgba(0, 0, 0, 0.2) !important;
     border: none !important;
@@ -180,12 +185,12 @@
 
 .custom-style-for-card-2 {
     background-color: transparent !important;
-    transition: 0.2s;
+    transition: 0.3s;
     border: none !important;
 }
 
 .custom-style-for-card-2:hover {
-    background-color: #fcf9ea !important;
+    background-color: #f6efc6 !important;
     border-radius: 0.5rem !important;
     box-shadow: 4px 7px 11px 0px rgba(0, 0, 0, 0.2) !important;
     border: none !important;
@@ -245,6 +250,10 @@
 
 .panel {
     display: none;
+}
+
+.panel-title-expanded {
+    color: #0B1D54 !important;
 }
 
 @media (min-width: 576px) and (max-width: 1280px) {
