@@ -10,10 +10,51 @@ html {
     scroll-behavior: smooth;
 }
 
+body {
+    background-color: #fffdf1 !important;
+    font-family: "Nanum Gothic", sans-serif !important;
+}
 
-/* Styling for the scrollbar */
+.custom-color-card-type-1-pink {
+    color: #F4A5D2 !important;
+}
 
- ::-webkit-scrollbar {
+.custom-color-card-middle-text {
+    font-size: 1.65rem !important;
+}
+
+.first-text-section-card {
+    color: #010514!important;
+}
+
+.custom-color-card-type-2-lightblue {
+    color: #4683CD !important;
+}
+
+.custom-color-card-type-2-darkblue {
+    color: #0B1D54 !important;
+}
+
+.bg-color-section-card {
+    background-color: #e5f8ff;
+}
+
+.font-weight-bold {
+    font-weight: bold !important;
+}
+
+.font-weight-700 {
+    font-weight: 700 !important;
+}
+
+.caveat {
+    font-family: "Caveat", cursive !important;
+}
+
+
+/* SCROLLBAR */
+
+::-webkit-scrollbar {
     width: 15px;
 }
 
@@ -34,6 +75,12 @@ html {
     background-color: #2d3950;
 }
 
+
+/* SCROLLBAR */
+
+
+/* NAVBAR */
+
 .nav-link-celements-styling {
     font-weight: 400;
     font-size: 1.1rem;
@@ -53,56 +100,112 @@ html {
 .after-effect-styling::after {
     content: "";
     position: absolute;
-    /* Position relative to the parent link */
     bottom: -3px;
-    /* Adjust the position of the underline */
     left: 8%;
-    /* Start from the left */
     height: 2px;
     width: 90%;
     background-color: rgb(81, 81, 86);
-    /* Set the color of the underline */
     opacity: 0;
-    /* Initially invisible */
     transition: opacity 0.2s;
-    /* Smooth transition for opacity */
 }
 
 .after-effect-styling:hover::after {
     opacity: 1;
-    /* Make the underline visible on hover */
 }
+
+
+/* NAVBAR */
+
+
+/* ABOTU US */
+
+
+/* .text-column {
+    padding-right: 0;
+} */
+
+.overlay-text {
+    right: -11% !important;
+    font-size: 7.6vw;
+    color: #333;
+}
+
+.custom-class-for-text-before-arrow {
+    font-size: 3vw;
+    margin-top: -10%;
+}
+
+.custom-class-for-image-about-us-arrow {
+    margin-left: 8%;
+    margin-top: -4%;
+    width: 40%;
+}
+
+.custom-class-styling-second-column-description-about-us {
+    margin-left: 4% !important;
+}
+
+.custom-class-for-sub-heading-under-after-effect {
+    font-size: 1.6vw;
+}
+
+.custom-class-for-margin-about-us {
+    margin-bottom: 10% !important;
+}
+
+.styling-for-text-under-image-1-about-us {
+    font-weight: bold;
+    font-size: 1.7vw;
+}
+
+.styling-for-text-under-image-about-us {
+    content: "";
+    height: 0.2vw;
+    width: 19%;
+    background-color: #8098E2;
+}
+
+.sub-heading-class {
+    font-size: 1.6vw;
+}
+
+.bottom-text-about-us {
+    bottom: 0;
+    left: 7%;
+    font-size: 5vw;
+    color: #333;
+}
+
+.font-size-mobile-about-us {
+    font-size: 5vw;
+}
+
+.font-size-mobile-about-us-2 {
+    font-size: 8vw;
+    font-weight: bold;
+}
+
+.font-size-mobile-about-us-1 {
+    font-size: 8vw;
+}
+
+.custom-class-tick-mobile {
+    width: 10vw;
+}
+
+.custom-class-margin-mobile-between-tick {
+    padding-left: 5%;
+}
+
+
+/* ABOTU US */
+
+
+/* CARDS */
 
 .custom-gap-grid-system-card {
     row-gap: 1rem;
-    /* Adjust the vertical gap */
     column-gap: 1rem;
-    /* Adjust the horizontal gap */
-}
-
-.custom-color-card-type-1-pink {
-    color: #F4A5D2 !important;
-}
-
-.custom-color-card-middle-text {
-    color: #010514!important;
-    font-size: 1.4rem !important;
-}
-
-.first-text-section-card {
-    color: #010514!important;
-}
-
-.custom-color-card-type-2-lightblue {
-    color: #4683CD !important;
-}
-
-.custom-color-card-type-2-darkblue {
-    color: #0B1D54 !important;
-}
-
-.custom-color-card-type-1-white {
-    color: #FEFAE4 !important;
 }
 
 .after-effect-styling-1,
@@ -110,69 +213,34 @@ html {
     position: relative;
 }
 
-.after-effect-styling-1::after {
-    content: "";
-    position: absolute;
-    /* Position relative to the parent link */
-    bottom: 0;
-    /* Adjust the position of the underline */
-    left: 7.5%;
-    /* Start from the left */
-    height: 2px;
-    width: 65%;
-    background-color: #FEFAE4;
-    /* Set the color of the underline */
-    opacity: 0;
-    /* Initially invisible */
-    transition: opacity 0.2s;
-    /* Smooth transition for opacity */
-}
-
 .after-effect-styling-2::after {
     content: "";
     position: absolute;
-    /* Position relative to the parent link */
     bottom: 0;
-    /* Adjust the position of the underline */
     left: 7.5%;
-    /* Start from the left */
     height: 2px;
     width: 65%;
     background-color: #0B1D54;
-    /* Set the color of the underline */
     opacity: 0;
-    /* Initially invisible */
     transition: opacity 0.2s;
-    /* Smooth transition for opacity */
+}
+
+.after-effect-styling-1::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 7.5%;
+    height: 2px;
+    width: 65%;
+    background-color: #FEFAE4;
+    opacity: 0;
+    transition: opacity 0.2s;
 }
 
 .after-effect-styling-1:hover::after,
 .after-effect-styling-2:hover::after {
     opacity: 1;
-    /* Make the underline visible on hover */
 }
-
-.font-weight-bold {
-    font-weight: bold !important;
-}
-
-.font-weight-700 {
-    font-weight: 700 !important;
-}
-
-.font-family-gothic {
-    font-family: "Nanum Gothic", sans-serif !important;
-}
-
-.font-family-caveat {
-    font-family: "Caveat", cursive !important;
-}
-
-
-/* .card-custom-style {
-    box-shadow: 4px 7px 11px 0px rgba(0, 0, 0, 0.2) !important;
-    border: none !important;
-} */
 
 .card-img-size-gridsystem {
     max-width: 30% !important;
@@ -187,32 +255,20 @@ html {
     width: 80%;
 }
 
-.bg-color-section-card {
-    background-color: #e5f8ff;
-}
-
-.columns-position-d-flex {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 .custom-style-for-card-1 {
-    background-color: transparent !important;
+    background-color: #f6f2e232 !important;
     transition: 0.3s;
     border: none !important;
 }
 
 .custom-style-for-card-1:hover {
     background-color: #d1d1f0 !important;
-    /* background-color: #8098e2 !important; */
     border-radius: 0.5rem !important;
     box-shadow: 4px 7px 11px 0px rgba(0, 0, 0, 0.2) !important;
-    border: none !important;
 }
 
 .custom-style-for-card-2 {
-    background-color: transparent !important;
+    background-color: #f6f2e232 !important;
     transition: 0.3s;
     border: none !important;
 }
@@ -221,18 +277,22 @@ html {
     background-color: #f6efc6 !important;
     border-radius: 0.5rem !important;
     box-shadow: 4px 7px 11px 0px rgba(0, 0, 0, 0.2) !important;
-    border: none !important;
 }
 
 .align-center-text-card-section {
-    text-align: center;
+    margin-left: 2.4%;
 }
 
+
+/* CARDS */
+
+
+/* FAQ */
+
 .faq-question {
-    border: 0.15625rem solid #b5b5b5;
+    border: 0.09rem solid #b5b5b5;
     border-radius: 0.6875rem;
     margin-top: 0.5rem;
-    /* Add a small margin to separate questions */
 }
 
 .panel-title {
@@ -255,7 +315,7 @@ html {
     transition: .2s ease;
     right: 15px;
     cursor: pointer;
-    margin-top: -0.9%;
+    margin-top: -0.3%;
 }
 
 .collapse-all {
@@ -280,8 +340,19 @@ html {
     display: none;
 }
 
-.panel-title-expanded {
-    color: #0B1D54 !important;
+
+/* FAQ */
+
+@media (max-width: 827px) {
+    .remove-class-under-827 {
+        display: none !important;
+    }
+}
+
+@media (min-width: 828px) {
+    .remove-class-above-827 {
+        display: none !important;
+    }
 }
 
 @media (min-width: 576px) and (max-width: 1280px) {
@@ -315,7 +386,6 @@ html {
 @media (min-width: 827px) {
     .row-cols-cb_col_1>.col {
         flex: 0 0 calc(100% / 2 - 0.5rem);
-        /* Two columns per row, adjusting for gap */
         max-width: calc(100% / 2 - 0.5rem);
     }
 }
@@ -323,7 +393,6 @@ html {
 @media (min-width: 1087px) {
     .row-cols-cb_col_2>.col {
         flex: 0 0 calc(100% / 3 - 0.67rem);
-        /* Three columns per row, adjusting for gap */
         max-width: calc(100% / 3 - 0.67rem);
     }
 }

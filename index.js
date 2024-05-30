@@ -9,7 +9,7 @@ questions.forEach((question) => {
         panelContent.classList.toggle("expand");
 
         let panelTitle = question.querySelector(".panel-title");
-        panelTitle.classList.toggle("panel-title-expanded");
+        panelTitle.classList.toggle("custom-color-card-type-2-darkblue");
     });
 });
 
@@ -25,7 +25,7 @@ collapseAll.addEventListener("click", () => {
         panelContent.classList.remove("expand");
 
         let panelTitle = question.querySelector(".panel-title");
-        panelTitle.classList.remove("panel-title-expanded");
+        panelTitle.classList.remove("custom-color-card-type-2-darkblue");
     });
 });
 
@@ -38,6 +38,6 @@ expandAll.addEventListener("click", () => {
         panelContent.classList.add("expand");
 
         let panelTitle = question.querySelector(".panel-title");
-        panelTitle.classList.add("panel-title-expanded");
+        panelTitle.classList.add("custom-color-card-type-2-darkblue");
     });
 });
