@@ -5,15 +5,17 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./styles/main.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
     <title>Document</title>
 </head>
+<!-- напрви сайта на английски и български оправи заглвавието съкрати css -->
 
 <body>
     <nav class="navbar navbar-expand-sm navbar-light">
         <div class="container-fluid">
-            <a class="navbar-brand ps-3" href="#">
-                <img src="/photos/image-removebg-preview 3.svg" width="80" height="50" />
+            <a class="navbar-brand " href="#">
+                <img src="/photos/image-removebg-preview 3.svg" width="190" height="60" />
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -21,28 +23,19 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mx-auto">
                     <li class="nav-item">
-                        <a class="nav-link nav-link-celements-styling after-effect-styling" aria-current="page" href="#">За Нас</a
-              >
-            </li>
-            <li class="nav-item">
-              <a
-                class="nav-link nav-link-celements-styling after-effect-styling"
-                href="#"
-                >Услуги</a
-              >
-            </li>
-            <li class="nav-item">
-              <a
-                class="nav-link nav-link-celements-styling after-effect-styling"
-                href="#"
-                >Контакти</a
-              >
-            </li>
-            <li class="nav-item">
-              <a
-                class="nav-link nav-link-celements-styling after-effect-styling"
-                href="#"
-                >ЧЗВ</a>
+                        <a class="nav-link nav-link-celements-styling after-effect-styling position-relative" aria-current="page" href="#about-us-main">За Нас</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav-link-celements-styling after-effect-styling position-relative" href="#services-main">Услуги</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav-link-celements-styling after-effect-styling position-relative" href="#footer-main">Контакти</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav-link-celements-styling after-effect-styling position-relative" href="#faq-main">ЧЗВ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a id="change-lang" class="nav-link nav-link-celements-styling after-effect-styling position-relative" href="./pages/home-en.html">EN</a>
                     </li>
                 </ul>
                 <ul class="navbar-nav pe-3">
@@ -58,48 +51,50 @@
     <div class="container-fluid main-margin-top remove-class-under-827 ">
         <div class="row ">
             <div class="col-1  p-0 d-flex  flex-column  ">
-                <div class="h-75 position-for-fiirst-column d-flex align-items-end "><img src="/photos/left.svg" class="sizing-postioning-left-img img-responsive"></div>
-                <div class="h-25"><img src="/photos/star.svg" class="sizing-postioning-left-img-2 position-absolute img-responsive" id="star" alt=""></div>
+                <div class="h-75 position-for-fiirst-column d-flex align-items-end "><img src="/photos/left.svg" class="sizing-postioning-left-img img-responsive" data-aos="fade-right"></div>
+                <div class="h-25"><img src="/photos/star.svg" data-aos="fade-down-left" class="sizing-postioning-left-img-2 position-absolute img-responsive" id="star" alt=""></div>
 
             </div>
-            <div class="col-4 class-for-middle-element-main">
-                <h1 class="heading-text-main "><span class="first-word-heading-main custom-color-card-type-2-darkblue">Почистване §</span> <br> <span class="second-word-heading-main custom-color-card-type-1-pink">Поддръжка</span></h1>
-                <p class=" text-changer-text-heading-main pb-0 mb-0 text-changer-main-section-color">Твоите задачи:</p>
-                <h1 class="text-changer-text-main-main pb-0 mb-0 text-changer-main-section-color"><del>Чистене</del></h1>
-                <span id="word" class="text-changer-text-main-main margin-bottom-text-changer text-changer-main-section-color">Вземи кафе.</span><br>
+            <div class="col-4 class-for-middle-element-main position-relative">
+                <h1 class="heading-text-main " data-aos="fade-down"><span class="first-word-heading-main custom-color-card-type-2-darkblue">Почистване §</span> <br> <span class="second-word-heading-main custom-color-card-type-1-pink">Поддръжка</span></h1>
+                <p class=" text-changer-text-heading-main pb-0 mb-0 text-changer-main-section-color" data-aos="fade-up">Твоите задачи:</p>
+                <h1 class="text-changer-text-main-main pb-0 mb-0 text-changer-main-section-color" data-aos="fade-up"><del>Чистене</del></h1>
+                <span id="word" class="text-changer-text-main-main margin-bottom-text-changer text-changer-main-section-color" data-aos="fade-up">Вземи кафе.</span><br>
 
-                <img src="/photos/middle.svg" class="middle-img-styling img-responsive" alt="">
+                <img src="/photos/middle.svg" class="middle-img-styling w-50 img-responsive" data-aos="fade-up">
 
             </div>
-            <div class="col-7 p-0 "><img src="/photos/right.svg" class="right-image-main position-relative img-responsive">
+            <div class="col-7 p-0 "><img src="/photos/right.svg" class="right-image-main position-relative img-responsive" data-aos="fade-left">
                 <div class="styling-description">
                     <p class="m-0 custom-color-card-type-2-darkblue"> <strong>Домашното почистване ви отегчава?</strong></p>
-                    <p class="first-text-section-card">Ще ви подарим малко време за себе си в замяна на висококачествени почистващи услуги за дома или офиса, без договор и на фиксирана цена!</p>
-                    <a class=" buttom-styling-under-description text-changer-main-section-color">Разгледай услугите</a>
+                    <p class="text-changer-main-section-color m-0">Ще ви подарим малко време за себе си в замяна на висококачествени почистващи услуги за дома или офиса, без договор и на фиксирана цена!</p>
+                    <a href="#services-main" class=" buttom-styling-under-description text-decoration-none position-relative text-changer-main-section-color">Разгледай услугите</a>
                     <img src="/photos/arrow-down.svg" class="img-responsive arrow-down" alt="">
-                    <a class="ms-5 buttom-styling-under-description text-changer-main-section-color">Повече за нас</a>
+                    <a href="#about-us-main" class="ms-5 buttom-styling-under-description text-decoration-none position-relative text-changer-main-section-color">Повече за нас</a>
                     <img src="/photos/arrow-down.svg" class="img-responsive arrow-down" alt="">
                 </div>
 
-                <div class="styling-star-left-1-desktop position-relative "><img src="/photos/star.svg " class=" img-responsive styling-star-left-2-desktop p-0 " id="star" alt=" "></div>
+                <div class="styling-star-left-1-desktop position-relative " data-aos="fade-down-right"><img src="/photos/star.svg " class=" img-responsive styling-star-left-2-desktop p-0 " id="star" alt=" "></div>
             </div>
         </div>
     </div>
+
     <!-- MAIN-DESKTOP -->
     <!-- MAIN-MOBILE -->
+
     <div class="container-fluid mt-3 remove-class-above-827 mb-4">
         <div class="row ">
             <div class="col-5 ">
-                <h1 class="heading-text-main-mobile "><span class="first-word-heading-main-mobile custom-color-card-type-2-darkblue">Почистване_§</span> <br> <span class="second-word-heading-main-mobile custom-color-card-type-1-pink">Поддръжка</span></h1>
+                <h1 class="heading-text-main-mobile  first-word-heading-main"><span class=" custom-color-card-type-2-darkblue">Почистване_§</span> <br> <span class=" custom-color-card-type-1-pink">Поддръжка</span></h1>
                 <div class="word-changer-mobile ">
-                    <p class=" text-changer-text-heading-main-mobile pb-0 mb-0 " text-changer-main-section-color>Твоите задачи:</p>
+                    <p class=" text-changer-text-heading-main-mobile pb-0 mb-0 text-changer-main-section-color">Твоите задачи:</p>
                     <h1 class="text-changer-text-main-main-mobile pb-0 mb-0 text-changer-main-section-color"><del>Чистене</del></h1>
                     <h1 id="wordphone" class="text-changer-text-main-main-mobile text-changer-main-section-color">Вземи кафе.</h1>
                 </div>
             </div>
             <div class="col-7 p-0 ">
                 <img src="/photos/right-mobile.svg " class="right-image-main-mobile position-relative w-100 img-responsive ">
-                <div class="styling-star-left-1-mobile position-relative "><img src="/photos/star-mobile.svg " class="img-responsive styling-star-left-2-mobile p-0 "></div>
+                <div class="styling-star-left-1-mobile position-relative "><img src="/photos/star-mobile.svg " id="star" class="img-responsive styling-star-left-2-mobile p-0 "></div>
             </div>
         </div>
         <div class="row ">
@@ -110,25 +105,28 @@
         <div class="row mb-3 ">
             <div class="col-5 p-0 "><img src="/photos/left-mobile.svg " class="w-100 "></div>
             <div class="col-7 d-flex align-items-center justify-content-center ">
-                <p class="positioning-postdescription-mobile-2 first-text-section-card">Ще ви подарим малко време за себе си в замяна на качествени почистващи услуги за дома или офиса на фиксирана цена!</p>
+                <p class="positioning-postdescription-mobile-2 text-changer-main-section-color">Ще ви подарим малко време за себе си в замяна на качествени почистващи услуги за дома или офиса на фиксирана цена!</p>
             </div>
         </div>
         <div class="row mb-0 ">
-            <div class="col-3 p-0 styling-star-left-1-mobile-1 "><img src="/photos/star-mobile.svg " class=" img-responsive styling-star-left-1-mobile-2 "></div>
+            <div class="col-3 p-0 styling-star-left-1-mobile-1 position-relative"><img src="/photos/star-mobile.svg " id="star" class=" img-responsive styling-star-left-1-mobile-2 "></div>
             <div class="col-9 d-flex align-items-center justify-content-center ">
-                <img src="/photos/middle-mobile.svg " class="sizing-middle-img-tablet " alt=" ">
+                <img src="/photos/middle-mobile.svg " class="sizing-middle-img-tablet" alt=" ">
             </div>
         </div>
     </div>
     <!-- MAIN-MOBILE -->
-    <section class="kaji-we-o">
+    <section class="kaji-we-o" id="about-us-main">
         <div class="container-fluid sizing-main--about-us remove-class-under-827">
             <div class="row ">
                 <div class="col-md-4 d-flex justify-content-start align-items-center position-relative pe-0">
-                    <h1 class="overlay-text caveat position-absolute ">Кои сме ние?</h1>
-                    <h2 class="bottom-text-about-us caveat position-absolute">Hugi Services</h2>
+                    <h1 class="overlay-text text-changer-main-section-color caveat position-absolute " data-aos="fade-right">Кои сме ние?</h1>
+                    <h2 class="bottom-text-about-us text-changer-main-section-color caveat position-absolute" data-aos="fade-up-right">Higi Services</h2>
                 </div>
-                <div class="col-md-8 position-relative ">
+                <div class="col-md-8 position-relative " data-aos="fade-left">
+
+
+
                     <img src="/photos/about-us-main.svg" alt="About Us Image" class="img-fluid w-100 ">
                 </div>
             </div>
@@ -137,21 +135,21 @@
                 <div class="col-md-4">
 
                 </div>
-                <div class="col-md-8 d-flex justify-content-between ">
+                <div class="col-md-8 d-flex justify-content-between text-changer-main-section-color" data-aos="fade-up">
                     <div class="styling-for-text-under-image-about-us  ">
-                        <p class="styling-for-text-under-image-1-about-us pt-2 mb-0">20+ Обекта</p>
+                        <p class="styling-for-text-under-image-1-about-us fw-bold pt-2 mb-0">20+ Обекта</p>
                         <p class="caveat custom-class-for-sub-heading-under-after-effect">Почистени до пълно савършенство</p>
                     </div>
                     <div class="styling-for-text-under-image-about-us  ">
-                        <p class="styling-for-text-under-image-1-about-us pt-2 mb-0">127+ Клиенти</p>
+                        <p class="styling-for-text-under-image-1-about-us fw-bold pt-2 mb-0">127+ Клиенти</p>
                         <p class="caveat custom-class-for-sub-heading-under-after-effect">Върнали се отново <br>при нас </p>
                     </div>
                     <div class="styling-for-text-under-image-about-us  ">
-                        <p class="styling-for-text-under-image-1-about-us pt-2 mb-0">12+ Опит</p>
+                        <p class="styling-for-text-under-image-1-about-us fw-bold pt-2 mb-0">12+ Опит</p>
                         <p class="caveat custom-class-for-sub-heading-under-after-effect">В професионалното чистене</p>
                     </div>
                     <div class="styling-for-text-under-image-about-us  ">
-                        <p class="styling-for-text-under-image-1-about-us pt-2 mb-0">99% Успех</p>
+                        <p class="styling-for-text-under-image-1-about-us fw-bold pt-2 mb-0">99% Успех</p>
                         <p class="caveat custom-class-for-sub-heading-under-after-effect">При нашите общи начинания </p>
                     </div>
 
@@ -160,25 +158,25 @@
             <div class="row ">
                 <div class="col-md-4 ">
                     <div class=" d-flex flex-row ">
-                        <h1 class="custom-class-for-text-before-arrow ">За нас</h1>
-                        <img src="/photos/arrow-1.svg" class="  custom-class-for-image-about-us-arrow  img-responsive ">
+                        <h1 class="custom-class-for-text-before-arrow text-changer-main-section-color" data-aos="fade-up-right">За нас</h1>
+                        <img src="/photos/arrow-1.svg" data-aos="fade-down-left" class="custom-class-for-image-about-us-arrow  img-responsive ">
                     </div>
                 </div>
                 <div class="col-md-8 d-flex justify-content-between ">
-                    <div class="d-flex flex-row ">
+                    <div class="d-flex flex-row " data-aos="fade-up">
                         <div class="d-flex flex-column col-6 pe-3 ">
-                            <div class="col custom-class-pencho">
+                            <div class="col text-changer-main-section-color">
                                 Със стаж от над 12 години и повече от
                                 <br>30 служители, ние се отзоваваме на нуждите на нашите клиенти в София. </div>
-                            <div class="col mt-3 custom-class-pencho">
+                            <div class="col mt-3 text-changer-main-section-color">
                                 Занимаваме се с професионално почистване на апартаменти, офиси, домове и хотели.
                             </div>
                         </div>
                         <div class="d-flex flex-column col-5   custom-class-styling-second-column-description-about-us">
-                            <div class="col custom-class-pencho">
+                            <div class="col text-changer-main-section-color">
                                 Гледаме напред и се адаптираме към най-новите технологии в сферата на хигиената.
                             </div>
-                            <div class="col mt-3 custom-class-pencho">
+                            <div class="col mt-3 text-changer-main-section-color">
                                 Държим на високото и качествено отношение към нашите клиенти обяснявайки целия процес от 0.
                             </div>
                         </div>
@@ -194,52 +192,55 @@
                 <p class="font-size-mobile-about-us mt-2">Със стаж от над 12 години и повече от 30 служители, ние се отзоваваме на нуждите на нашите клиенти в София.</p>
                 <div class="d-flex flex-row justify-content-start align-items-center  w-100 ">
                     <img src="/photos/tick-mobile.svg" class="img-responsive custom-class-tick-mobile " alt="">
-                    <p class="custom-class-margin-mobile-between-tick font-size-mobile-about-us-2">12+ Опит</p>
+                    <p class="custom-class-margin-mobile-between-tick font-size-mobile-about-us-2 fw-bold">12+ Опит</p>
                 </div>
 
 
                 <p class="font-size-mobile-about-us mt-2">Гледаме напред и се адаптираме към най-новите технологии в сферата на хигиената.</p>
                 <div class="d-flex flex-row justify-content-start align-items-center  w-100 ">
                     <img src="/photos/tick-mobile.svg" class="img-responsive custom-class-tick-mobile" alt="">
-                    <p class="custom-class-margin-mobile-between-tick font-size-mobile-about-us-2">20+ Обекта</p>
+                    <p class="custom-class-margin-mobile-between-tick font-size-mobile-about-us-2 fw-bold">20+ Обекта</p>
                 </div>
 
 
                 <p class="font-size-mobile-about-us mt-2">Занимаваме се с професионално почистване на апартаменти, офиси, домове и хотели.</p>
                 <div class="d-flex flex-row justify-content-start align-items-center  w-100 ">
                     <img src="/photos/tick-mobile.svg" class="img-responsive custom-class-tick-mobile " alt="">
-                    <p class="custom-class-margin-mobile-between-tick font-size-mobile-about-us-2">127+ Клиенти</p>
+                    <p class="custom-class-margin-mobile-between-tick font-size-mobile-about-us-2 fw-bold">127+ Клиенти</p>
                 </div>
 
 
                 <p class="font-size-mobile-about-us mt-2">Държим на високото и качествено отношение към нашите клиенти обяснявайки целия процес от 0.</p>
                 <div class="d-flex flex-row justify-content-start align-items-center  w-100 ">
                     <img src="/photos/tick-mobile.svg" class="img-responsive custom-class-tick-mobile " alt="">
-                    <p class="custom-class-margin-mobile-between-tick font-size-mobile-about-us-2">99% Успех</p>
+                    <p class="custom-class-margin-mobile-between-tick font-size-mobile-about-us-2 fw-bold">99% Успех</p>
                 </div>
 
             </div>
 
         </div>
-        <section class="mt-3">
+        <div class="page-123 " style="overflow: visible !important;">
+            <div class="img-123" style="overflow: visible !important;"></div>
+        </div>
+        <section id="services-main" class="mt-3">
 
-            <div class="d-flex px-3  flex-column align-items-start justify-content-center align-center-text-card-section first-text-section-card">
+            <div class="d-flex px-3  flex-column align-items-start justify-content-center align-center-text-card-section text-changer-main-section-color" data-aos="fade-right">
                 <h2 class="mt-3">Как можем да ви помогнем?</h2>
                 <h6>Кажете ни вашите нужди. Ние ще орпавим останалото.</h6>
             </div>
 
             <!-- row-cols-md-3  sm md lg-->
-            <div class="container-fluid peika-manqk p-0 mt-3">
+            <div class="container-fluid  p-0 mt-3">
                 <div class="row row-cols-cb_col_2 row-cols-cb_col_1  row-cols-1 custom-gap-grid-system-card">
                     <div class="col d-flex justify-content-center align-items-center ">
 
-                        <div class="card text-center card-custom-size card-custom-style custom-style-for-card-1 card-custom-size ">
+                        <div class="card text-center card-custom-size card-custom-style custom-style-for-card-1 card-custom-size " data-aos="zoom-in-right">
                             <div class="card-body">
                                 <img class="card-img-top img-fluid card-img-size-gridsystem mx-auto d-block mb-4 mt-3" src="/photos/1.svg">
                                 <h5 class="card-title  font-weight-bold "><span class="custom-color-card-type-1-pink ">Къртене</span> <span class="custom-color-card-type-2-darkblue">и Чистене</span> </h5>
-                                <h5 class="card-text  custom-color-card-middle-text first-text-section-card caveat padding-description-sm-devices">Професионално къртене и почистване на всякакви строителни обекти.</h5>
+                                <h5 class="card-text  custom-color-card-middle-text text-changer-main-section-color caveat padding-description-sm-devices">Професионално къртене и почистване на всякакви строителни обекти.</h5>
                                 <div class="text-center  pt-1">
-                                    <a href="/photos/second-page.html" class="btn font-weight-bold custom-color-card-type-2-darkblue 1-white  after-effect-styling-1">Научи Повече <img class="ps-1 img"  src="/photos/btn-arrow-1.svg"></a>
+                                    <a href="./pages/Къртене.html" class="btn font-weight-bold custom-color-card-type-2-darkblue 1-white  after-effect-styling-1 position-relative">Научи Повече <img class="ps-1 img"  src="/photos/btn-arrow-1.svg"></a>
                                 </div>
                             </div>
                         </div>
@@ -247,13 +248,13 @@
                     </div>
                     <div class="col d-flex justify-content-center align-items-center">
 
-                        <div class="card text-center card-custom-size card-custom-style  custom-style-for-card-2">
+                        <div class="card text-center card-custom-size card-custom-style  custom-style-for-card-2" data-aos="zoom-in-up">
                             <div class="card-body">
                                 <img class="card-img-top img-fluid card-img-size-gridsystem mx-auto d-block  mb-4 mt-3" src="/photos/2.svg">
-                                <h5 class="card-title  font-weight-bold "><span class="custom-color-card-type-2-lightblue">Пичстване</span> <span class="custom-color-card-type-2-darkblue">след Ремонт</span></h5>
-                                <h5 class="card-text  custom-color-card-middle-text first-text-section-card caveat  padding-description-sm-devices ">Основно почистване след ремонт за безупречен финален вид.</h5>
+                                <h5 class="card-title  font-weight-bold "><span class="custom-color-card-type-2-lightblue">Почстване</span> <span class="custom-color-card-type-2-darkblue">след Ремонт</span></h5>
+                                <h5 class="card-text  custom-color-card-middle-text text-changer-main-section-color caveat  padding-description-sm-devices ">Основно почистване след ремонт за безупречен финален вид.</h5>
                                 <div class="text-center  ">
-                                    <a href="#" class="btn font-weight-bold custom-color-card-type-2-darkblue  after-effect-styling-2">Научи Повече <img class="ps-1 img"  src="/photos/btn-arrow-2.svg"></a>
+                                    <a href="./pages/Почистване-след-ремонт.html" class="btn font-weight-bold custom-color-card-type-2-darkblue  after-effect-styling-2 position-relative">Научи Повече <img class="ps-1 img"  src="/photos/btn-arrow-2.svg"></a>
                                 </div>
                             </div>
                         </div>
@@ -261,13 +262,13 @@
                     </div>
                     <div class="col d-flex justify-content-center align-items-center">
 
-                        <div class="card text-center card-custom-size card-custom-style custom-style-for-card-1">
+                        <div class="card text-center card-custom-size card-custom-style custom-style-for-card-1" data-aos="zoom-in-left">
                             <div class="card-body">
                                 <img class="card-img-top img-fluid card-img-size-gridsystem mx-auto d-block mb-4 mt-3" src="/photos/3.svg">
                                 <h5 class="card-title  font-weight-bold "><span class="custom-color-card-type-1-pink ">Основно</span> <span class="custom-color-card-type-2-darkblue">Почистване</span> </h5>
-                                <h5 class="card-text custom-color-card-middle-text first-text-section-card caveat padding-description-sm-devices">Пълно основно почистване за свеж и чист дом с акцент върху детайлите.</h5>
+                                <h5 class="card-text custom-color-card-middle-text text-changer-main-section-color caveat padding-description-sm-devices">Пълно основно почистване за свеж и чист дом с акцент върху детайлите.</h5>
                                 <div class="text-center ">
-                                    <a href="#" class="btn font-weight-bold custom-color-card-type-2-darkblue  after-effect-styling-1">Научи Повече <img class="ps-1 img"  src="/photos/btn-arrow-1.svg"></a>
+                                    <a href="./pages/Основно.html" class="btn font-weight-bold custom-color-card-type-2-darkblue  after-effect-styling-1 position-relative">Научи Повече <img class="ps-1 img"  src="/photos/btn-arrow-1.svg"></a>
                                 </div>
                             </div>
                         </div>
@@ -275,13 +276,13 @@
                     </div>
                     <div class="col d-flex justify-content-center align-items-center">
 
-                        <div class="card text-center card-custom-size card-custom-style  custom-style-for-card-2">
+                        <div class="card text-center card-custom-size card-custom-style  custom-style-for-card-2" data-aos="zoom-in-right">
                             <div class="card-body">
                                 <img class="card-img-top img-fluid card-img-size-gridsystem mx-auto d-block  mb-3 mt-2" src="/photos/4.svg">
                                 <h5 class="card-title  font-weight-bold  "><span class="custom-color-card-type-2-lightblue">Поддържащо</span> <span class="custom-color-card-type-2-darkblue">Чистене</span></h5>
-                                <h5 class="card-text  custom-color-card-middle-text first-text-section-card caveat padding-description-sm-devices">Периодично поддържащо почистване за чист дом.</h5>
+                                <h5 class="card-text  custom-color-card-middle-text text-changer-main-section-color caveat padding-description-sm-devices">Периодично поддържащо почистване за чист дом и офис.</h5>
                                 <div class="text-center  ">
-                                    <a href="#" class="btn font-weight-bold custom-color-card-type-2-darkblue  after-effect-styling-2">Научи Повече <img class="ps-1 img"  src="/photos/btn-arrow-2.svg"></a>
+                                    <a href="./pages/поддържащо.html" class="btn font-weight-bold custom-color-card-type-2-darkblue  after-effect-styling-2 position-relative">Научи Повече <img class="ps-1 img"  src="/photos/btn-arrow-2.svg"></a>
                                 </div>
                             </div>
                         </div>
@@ -289,13 +290,13 @@
                     </div>
                     <div class="col d-flex justify-content-center align-items-center">
 
-                        <div class="card text-center card-custom-size card-custom-style custom-style-for-card-1">
+                        <div class="card text-center card-custom-size card-custom-style custom-style-for-card-1" data-aos="zoom-in-up">
                             <div class="card-body">
                                 <img class="card-img-top img-fluid card-img-size-gridsystem mx-auto d-block mb-3 mt-2" src="/photos/5.svg">
                                 <h5 class="card-title  font-weight-bold "><span class="custom-color-card-type-1-pink ">Почистване</span> <span class="custom-color-card-type-2-darkblue">Прозорци и Дограми</span> </h5>
-                                <h5 class="card-text custom-color-card-middle-text first-text-section-card caveat padding-description-sm-devices">Почистване на прозорци и дограми за кристално чиста яснота.</h5>
+                                <h5 class="card-text custom-color-card-middle-text text-changer-main-section-color caveat padding-description-sm-devices">Почистване на прозорци и дограми за кристално чиста яснота.</h5>
                                 <div class="text-center ">
-                                    <a href="#" class="btn font-weight-bold custom-color-card-type-2-darkblue  after-effect-styling-1">Научи Повече <img class="ps-1 img"  src="/photos/btn-arrow-1.svg"></a>
+                                    <a href="./pages/прозорцидограми.html" class="btn font-weight-bold custom-color-card-type-2-darkblue  after-effect-styling-1 position-relative">Научи Повече <img class="ps-1 img"  src="/photos/btn-arrow-1.svg"></a>
                                 </div>
                             </div>
                         </div>
@@ -303,13 +304,13 @@
                     </div>
                     <div class="col d-flex justify-content-center align-items-center">
 
-                        <div class="card text-center card-custom-size card-custom-style  custom-style-for-card-2">
+                        <div class="card text-center card-custom-size card-custom-style  custom-style-for-card-2" data-aos="zoom-in-left">
                             <div class="card-body">
                                 <img class="card-img-top img-fluid card-img-size-gridsystem mx-auto d-block  mb-4 mt-3" src="/photos/6.svg">
                                 <h5 class="card-title  font-weight-bold "><span class="custom-color-card-type-2-lightblue">Пране</span> <span class="custom-color-card-type-2-darkblue">на Мебел</span></h5>
-                                <h5 class="card-text  custom-color-card-middle-text first-text-section-card caveat padding-description-sm-devices">Мебелно почистване за изключителен комфорт и уют.</h5>
+                                <h5 class="card-text  custom-color-card-middle-text text-changer-main-section-color caveat padding-description-sm-devices">Мебелно почистване за изключителна чистота, комфорт и уют.</h5>
                                 <div class="text-center  ">
-                                    <a href="#" class="btn font-weight-bold custom-color-card-type-2-darkblue  after-effect-styling-2">Научи Повече <img class="ps-1 img"  src="/photos/btn-arrow-2.svg"></a>
+                                    <a href="./pages/мебел.html" class="btn font-weight-bold custom-color-card-type-2-darkblue  after-effect-styling-2 position-relative">Научи Повече <img class="ps-1 img"  src="/photos/btn-arrow-2.svg"></a>
                                 </div>
                             </div>
                         </div>
@@ -317,13 +318,13 @@
                     </div>
                     <div class="col d-flex justify-content-center align-items-center">
 
-                        <div class="card text-center card-custom-size card-custom-style custom-style-for-card-1">
+                        <div class="card text-center card-custom-size card-custom-style custom-style-for-card-1" data-aos="zoom-in-right">
                             <div class="card-body">
                                 <img class="card-img-top img-fluid card-img-size-gridsystem mx-auto d-block mb-3 mt-2" src="/photos/7.svg">
                                 <h5 class="card-title  font-weight-bold "><span class="custom-color-card-type-1-pink ">Почистване</span> <span class="custom-color-card-type-2-darkblue">на Офис и Бизнес</span> </h5>
-                                <h5 class="card-text custom-color-card-middle-text first-text-section-card caveat padding-description-sm-devices">Перфектно почистване за офис и бизнес с внимание към детайла.</h5>
+                                <h5 class="card-text custom-color-card-middle-text text-changer-main-section-color caveat padding-description-sm-devices">Перфектно почистване за офис и бизнес с внимание към детайла.</h5>
                                 <div class="text-center ">
-                                    <a href="#" class="btn font-weight-bold custom-color-card-type-2-darkblue  after-effect-styling-1">Научи Повече <img class="ps-1 img"  src="/photos/btn-arrow-1.svg"></a>
+                                    <a href="./pages/офис.html" class="btn font-weight-bold custom-color-card-type-2-darkblue  after-effect-styling-1 position-relative">Научи Повече <img class="ps-1 img"  src="/photos/btn-arrow-1.svg"></a>
                                 </div>
                             </div>
                         </div>
@@ -331,11 +332,11 @@
                     </div>
                     <div class="col d-flex justify-content-center align-items-center">
 
-                        <div class="card text-center card-custom-size card-custom-style  custom-style-for-card-2">
+                        <div class="card text-center card-custom-size card-custom-style  custom-style-for-card-2" data-aos="zoom-in-up">
                             <div class="card-body">
                                 <img class="card-img-top img-fluid card-img-size-gridsystem mx-auto d-block  mb-4 mt-3" src="/photos/8.svg">
                                 <h5 class="card-title   font-weight-bold "><span class="custom-color-card-type-2-lightblue">Направи</span> <span class="custom-color-card-type-2-darkblue">Запитване</span></h5>
-                                <h5 class="card-text   custom-color-card-middle-text first-text-section-card caveat padding-description-sm-devices">Интересувате се от перфектно почистване, с фокус върху детайлите?</h5>
+                                <h5 class="card-text   custom-color-card-middle-text text-changer-main-section-color caveat padding-description-sm-devices">Интересувате се от перфектно почистване, с фокус върху детайлите?</h5>
                                 <div class="text-center  ">
                                     <a href="tel:+359 633 3600" class="btn font-weight-bold custom-color-card-type-2-darkblue  ">+359 633 3600 </a>
                                 </div>
@@ -343,7 +344,7 @@
                         </div>
 
                     </div>
-                    <div class="col d-flex justify-content-center align-items-center display-none-last-image-smaller-resolution">
+                    <div class="col d-flex justify-content-center align-items-center display-none-last-image-smaller-resolution" data-aos="zoom-in-left">
 
                         <img src="/photos/9.svg" class="last-img-card-gridsystem">
 
@@ -353,36 +354,38 @@
         </section>
 
 
-        <section class="mt-5 mb-4 w-100 d-flex justify-content-center">
+        <section class="mt-5 mb-4 w-100 d-flex justify-content-center" id="faq-main">
             <div class="faq-content  ">
-                <div class="d-flex justify-content-between mx-4">
-                    <p class="expand-all mb-0  font-weight-700 first-text-section-card">Expand All</p>
-                    <p class="collapse-all mb-0  font-weight-700 first-text-section-card">Collapse All</p>
+                <div class="d-flex justify-content-between mx-4" data-aos="fade-down">
+                    <p class="expand-all mb-0  font-weight-700 text-changer-main-section-color">Expand All</p>
+                    <p class="collapse-all mb-0  font-weight-700 text-changer-main-section-color">Collapse All</p>
                 </div>
 
-                <div class="faq-question position-relative overflow-hidden   mt-2 ">
+                <div class="faq-question position-relative overflow-hidden   mt-2 " data-aos="fade-right">
                     <div class="plus position-absolute">+</div>
-                    <label for="q1" class="panel-title width-100 position-relative m-0 d-block">Колко време ще продължи почистването?</label>
-                    <div class="panel-content px-sm-5 px-4 me-3 overflow-hidden position-relative first-text-section-card">Времето за почистване зависи от нивото на замърсяване и изискването на клиента, но за стандарт се счита 20 кв.м. за 1 час.</div>
+                    <label for="q1" class="panel-title width-100 position-relative m-0 d-block text-changer-main-section-color">Колко време ще продължи почистването?</label>
+                    <div class="panel-content px-sm-5 px-4 me-3 overflow-hidden position-relative text-changer-main-section-color">Времето за почистване зависи от нивото на замърсяване и изискването на клиента, но за стандарт се счита 20 кв.м. за 1 час.</div>
                 </div>
 
-                <div class="faq-question position-relative overflow-hidden mt-2">
+                <div class="faq-question position-relative overflow-hidden mt-2" data-aos="fade-left">
                     <div class="plus position-absolute">+</div>
-                    <label for="q1" class="panel-title width-100 position-relative m-0 d-block">Колко ще бъде крайната цена?</label>
-                    <div class="panel-content px-sm-5 px-4 me-3 overflow-hidden position-relative first-text-section-card">Крайната цена е под формата на оферта, след посещение.</div>
+                    <label for="q1" class="panel-title width-100 position-relative m-0 d-block text-changer-main-section-color">Колко ще бъде крайната цена?</label>
+                    <div class="panel-content px-sm-5 px-4 me-3 overflow-hidden position-relative text-changer-main-section-color">Крайната цена е под формата на оферта, след посещение.</div>
                 </div>
 
-                <div class="faq-question position-relative overflow-hidden  mt-2">
+                <div class="faq-question position-relative overflow-hidden  mt-2" data-aos="fade-right">
                     <div class="plus position-absolute">+</div>
-                    <label for="q1" class="panel-title width-100 position-relative m-0 d-block">Къде работим?</label>
-                    <div class="panel-content px-sm-5 px-4 me-3 overflow-hidden position-relative first-text-section-card">Работим из цяла София и окръжни зони.</div>
+                    <label for="q1" class="panel-title width-100 position-relative m-0 d-block text-changer-main-section-color">Къде работим?</label>
+                    <div class="panel-content px-sm-5 px-4 me-3 overflow-hidden position-relative text-changer-main-section-color">Работим из цяла София и окръжни зони.</div>
                 </div>
             </div>
         </section>
+
     </section>
 
+
     <!-- Footer -->
-    <div class="container-footer ">
+    <div class="container-footer  position-relative" id="footer-main">
         <div class="wave"></div>
         <div class="wave"></div>
         <div class="wave"></div>
@@ -399,7 +402,7 @@
                     <div class="col-md-3 col-lg-4 col-xl-3 mx-auto ">
 
                         <h6 class="text-uppercase custom-color-card-type-2-lightblue fw-bold  text-changer-text-main-main">
-                            Hugi Services
+                            Higi Services
                         </h6>
                         <a href="https://github.com/luchezar123" target="_blank" class="text-muted remove-class-under-827">
                             Напревено от ЛР
@@ -438,13 +441,13 @@
 
 
 
-                    <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                    <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4 flex-column d-flex">
 
-                        <h6 class="text-uppercase fw-bold mb-4 custom-color-card-type-2-lightblue">Политика</h6>
-                        <p class="color-text-footer"> Политика за поверителност</p>
-                        <p class="color-text-footer">
+                        <h6 class="text-uppercase fw-bold  custom-color-card-type-2-lightblue">Политика</h6>
+                        <a class="color-text-footer text-decoration-none " href="./pages/Policy.html"> Политика за поверителност</a>
+                        <a class="color-text-footer mt-3 text-decoration-none" href="./pages/condition.html">
                             Условия за ползване
-                        </p>
+                        </a>
                     </div>
                     <a href="https://github.com/luchezar123" target="_blank" class="text-muted text-center remove-class-above-827">
                         Напревено от ЛР
@@ -456,8 +459,10 @@
             </div>
         </section>
     </footer>
-
-
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
     <script src="./index.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
